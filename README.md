@@ -9,9 +9,12 @@ This repository includes the following:
   ### Phenotypic and Distributional Traits
    + Body size data (snout-vent length, body length, mass). (5x)
    + Distributional data, in binary format for BioGeoBEARS analysis. (5x)
-   + Spreadsheet of body size and distributional data.
+   + Spreadsheet of raw body size and distributional data.
 ## Scripts:
   ### Biogeographic Analyses:
-   +  
+   + R code for BioGeoBEARS and Biogeographic Stochastic Mapping that iterates across a set of empirical trees, and summarizes and plots temporal trends in dispersal histories. 
+   + R code for BioGeoBEARS and Biogeographic Stochastic Mapping that simulates data onto a specified tree under a specified historical biogeographic model, and summarizes and plots temporal trends in dispersal histories. 
+  ### Modelling Phenotypic Evolution:
+  
 
 
