@@ -1,0 +1,4 @@
+# Directory for Data: Phenotypic & Distributional Traits  
+## Distributional Data:
+  + BGB.Agamids.geog.txt - input file for BioGeoBEARS analysis of agamid lizards
+  + BGB.Pygopodoidea.geog.txt - input file for BioGeoBEARS analysis of pygopodoid geckos
