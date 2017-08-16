@@ -1,4 +1,4 @@
-99	5	(T	U	S	F	A)
+99	5	(Q	U	S	F	A)
 A_Amphibolurus_burnsi	01001
 A_Amphibolurus_horneri	00101
 A_Amphibolurus_muricatus	10000
