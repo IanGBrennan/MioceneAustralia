@@ -4,9 +4,14 @@ Associated files and scripts for manuscript on Late Miocene biome turnover, and 
 This repository includes the following:  
 ## Data:
   ### Trees:  
-   + Maximum clade credibility trees for 5 focal Australian vertebrate radiations. (5x)  
-   + 100 trees from dating analysis posteriors of Australian vertebrate radiations. (5x)     
-  ### Phenotypic and Distributional Traits  
-    + 
+   + Maximum clade credibility trees. (5x)  
+   + 100 trees from dating analysis posteriors. (5x)     
+  ### Phenotypic and Distributional Traits
+   + Body size data (snout-vent length, body length, mass). (5x)
+   + Distributional data, in binary format for BioGeoBEARS analysis. (5x)
+   + Spreadsheet of body size and distributional data.
+## Scripts:
+  ### Biogeographic Analyses:
+   +  
 
 
