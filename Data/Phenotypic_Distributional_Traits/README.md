@@ -1,10 +1,11 @@
 # Directory for Data: 
-## Phenotypic & Distributional Traits  
+## Phenotypic & Distributional Traits 
 ### Distributional Data, input files for BioGeoBEARS analysis:
-  + Agamid lizards: BGB.Agamids.geog.txt
-  + Pygopodoid geckos: BGB.Pygopodoidea.geog.txt
-  + Marsupial mammals: BGB.Australian.marsupials.geog.txt
-  + Sphenomorphine skinks: BGB.Skinks.geog.txt
-  + Meliphagoid birds: BGB.Meliphagides.geog.txt
-### Body Size Data, input files for modelling continuous trait evolution:
+  + _Agamid lizards_: BGB.Agamids.geog.txt
+  + _Pygopodoid geckos_: BGB.Pygopodoidea.geog.txt
+  + _Marsupial mammals_: BGB.Australian.marsupials.geog.txt
+  + _Sphenomorphine skinks_: BGB.Skinks.geog.txt
+  + _Meliphagoid birds_: BGB.Meliphagides.geog.txt
+### Raw Distributional and Body Size Data:
+  + _All radiations_: Radiations Data.xlsx
 
