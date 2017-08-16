@@ -4,9 +4,7 @@ Associated files and scripts for manuscript on Late Miocene biome turnover, and 
 This repository includes the following:  
 ## Data:
   ### Trees:  
-+ Maximum clade credibility tree for Australian marsupial mammals -   
-+ Maximum clade credibility tree for Australian pygopodoid geckos - 
-+ Maximum clade credibility tree for Australian agamid lizards - 
-+ Maximum clade credibility tree for Australian sphenomorphine skinks - 
-+ Maximum clade credibility tree for Australian meliphagoid birds - 
++ Maximum clade credibility trees for Australian vertebrate radiations (marsupial mammals, meliphagoid birds, pygopodoid geckos, agamid lizards, sphenomorphine skinks).
++ 100 trees (each) from dating analysis posteriors of Australian vertebrate radiations (marsupial mammals, meliphagoid birds, pygopodoid geckos, agamid lizards, sphenomorphine skinks). 
+
 
