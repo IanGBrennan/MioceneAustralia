@@ -1,5 +1,5 @@
 ## Scripts for Analysis of Phenotypic Evolution
-   + _New Models from Slater 2013_:  
+   + _New Models Adapted from Slater 2013_:  
    Slater 2013 code which includes the 'fitContinuous_paleo' function, with new models (SRC, TRC) from this study added.   
    
    + _geiger + OUwie Loop_:  
