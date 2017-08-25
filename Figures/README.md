@@ -2,23 +2,31 @@
 ### Figures in Main Text
    + _Figure 1._  
    Shifts in evolutionary mode (BM to OU) of body size evolution are temporally clustered in the Late Miocene, and congruent with a shift in dispersal histories. (A) Dotted lines indicate the crown divergence of each focal radiation, and colors match the distribution of inferred shift timing. Shifts between rates or modes (or both) of trait evolution are tightly constrained to the Late Miocene (11–5 Million years ago). Colored line shows global trend in temperature through the Cenozoic, data from Cramer, Miller, Barrett and Wright (4). (B) Inferred trends in the dispersal history of Australian radiations from the Early Miocene to present. The observed trend in proportion of allopatric dispersal events (in green), exceeds the expected simulated proportion (purple), in the Late Miocene, coinciding with constraints on body size evolution of select Australian vertebrate clades. Note, scales of temperature and time differ between (A) and (B). MMCO, Mid Miocene Climatic Optimum.  
+   
    + _Figure 2._  
    Comparative fit of models to body size evolution data of Australian vertebrate clades finds preference for novel mode-variable models (SRC, TRC). Models are categorized below the plot. Dotted lines distinguish support for time-shifting models (black) which incorporate a transition in rate or mode (or both) in the Late Miocene, and two novel time-shifting models (gray) which specifically transition from Brownian Motion to Ornstein-Uhlenbeck processes in the Late Miocene. The y-axis indicates the relative support for each model as Akaike weights (averaged across 100 posterior trees), and shows that time-shifting models with Miocene constraints, particularly those shifting from BM to OU are highly preferred. 
    
 ### Tables and Figures in Supporting Information
    + _Table S1._  
    Fossil and secondary calibrations used for dating estimates of Australian vertebrate radiations.  
+   
    + _Figure S1._  
-   Temporal trends in the proportion of allopatric dispersal events shift in the Late Miocene across all Australian vertebrate radiations studied. Combining results of all five radiations (>800 taxa) provides signal of increasing allopatry in the Late Miocene (10–5 Mya), above what was expected.  
+   Temporal trends in the proportion of allopatric dispersal events shift in the Late Miocene across all Australian vertebrate radiations studied. Combining results of all five radiations (>800 taxa) provides signal of increasing allopatry in the Late Miocene (10–5 Mya), above what was expected. 
+   
    + _Figure S2._  
-   Five biome classification of Australia based on a Köppen-Geiger system, and modified according to Stern, Harvey, Ernst (2000).  
+   Five biome classification of Australia based on a Köppen-Geiger system, and modified according to Stern, Harvey, Ernst (2000). 
+   
    + _Figure S3._  
    Novel mode-variable models (single-rate constrained—SRC; two-rate constrained—TRC) can be accurately recovered using simulated data. 100 data sets were simulated under both SRC and TRC models (see SI Materials and Methods— Simulation Tests), then comparatively fit against mode-constant and mode-variable models. Average AIC weights for the generating model were ~60%.  
+   
    + _Figure S4._  
    The constraint parameter alpha α can be reliably estimated from phylogenies of varied sizes by the Two Rate Constrained (TRC) model. Regression of estimated to simulated (true) alpha values return slopes of 0.945–0.966, showing a strong correspondence between these values, and the ability to estimate them. Relationship between estimated and simulated values are strongest at small values of alpha, and become increasingly difficult to estimate at values >7.  
+   
    + _Figure S5._  
    The timing of the shift (tshift) between BM and OU models can be reliably estimated from phylogenies of varied sizes by the Two Rate Constrained (TRC) model. Regression of estimated to simulated (true) alpha values return slopes of 0.912–0.969, showing a strong correspondence between these values, and the ability to estimate them. Shift accuracy drops at depths greater than 15 million years. The saturation of each point (pink to red) indicates multiple estimates at that value.  
+   
    + _Figure S6._  
    The constraint parameter alpha α can be reliably estimated from phylogenies of varied sizes by the Single Rate Constrained (SRC) model. Regression of estimated to simulated (true) alpha values return slopes of 0.919–1.016, showing a strong correspondence between these values, and the ability to estimate them. Relationship between estimated and simulated values are strongest at small values of alpha, and become increasingly difficult to estimate at values >5.  
+   
    + _Figure S7._  
    The timing of the shift (tshift) between BM and OU models can be reliably estimated from phylogenies of varied sizes by the Single Rate Constrained (SRC) model. Regression of estimated to simulated (true) alpha values return slopes of 0.925–0.969, showing a strong correspondence between these values, and the ability to estimate them. Shift accuracy drops at depths greater than 15 million years. The saturation of each point (pink to red) indicates multiple estimates at that value.
