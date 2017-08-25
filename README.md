@@ -24,6 +24,8 @@ Otherwise, this repository includes the following (organized under folders of th
    + Supplemental Figures 1-7.
 ## Outputs:
    + Comparative model fitting output for 100 posterior trees. This includes ALL compared models. (5x)
-   + Comparative model fitting output for 100 posterior trees. This is a trimmed set of models (those in Fig.2), with recalculated AICcWt. (5x)
+   + Comparative model fitting output for 100 posterior trees. This is a trimmed set of models (those in Fig.2), with recalculated AICcWt. (5x)  
+   + 'Best' models for each tree in each radiation, as a result of comparative model fitting. (5x)
+   + ALL empirical and simulated results of biogeographic analyses. (many)
 
 
