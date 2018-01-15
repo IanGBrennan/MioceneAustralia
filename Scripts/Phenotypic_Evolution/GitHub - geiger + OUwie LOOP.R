@@ -355,6 +355,42 @@ for (z in 1:100) {
   total.results <- rbind(total.results, env.res)
 }
 
+## run a set of models which model phenotpyic change as jump (Lévy) processes following Landis & Schraiber 2017
+for (z in 53:100) {
+  cat("iteration", z, "of 100", "\n") #keep track of what tree/loop# we're on
+    ## run the set of models
+  JNfit <- fit_reml_levy(trees[[z]], data.fitenv, model="JN", maxiter=10, sigma_tip=T, silent=F)
+  NIGfit <- fit_reml_levy(trees[[z]], data.fitenv, model="NIG", maxiter=10, sigma_tip=T, silent=F)
+  #BMJNfit <- fit_reml_levy(trees[[z]], data.fitenv, model="BMJN", maxiter=10, sigma_tip=F, silent=F)
+  #BMNIGfit <- fit_reml_levy(trees[[z]], data.fitenv, model="BMNIG", maxiter=10, sigma_tip=F, silent=F)
+  
+  ## designate data frames for the results
+  res.jn <- NULL # create a null data frame for the GEIGER time-shift model (BM)
+  res.nig <- NULL # create a null data frame for the GEIGER Two-Rate Constraint model (BM+OU)
+  #res.bmjn <- NULL # create a null data frame for the  GEIGER Single-Rate Constraint model (BM+OU)
+  #res.bmnig <- NULL # create a null data frame for the OUwie time-shift model (BM)
+  
+  ## set results into the corresponding data frame
+  res.jn <- rbind(res.jn, as.data.frame(t(c("JN", JNfit$lnL, JNfit$AIC, calc_AICc_vals(JNfit$lnL, JNfit$n_params, length(JNfit$dat)), NA, z)))) # we have to manually calculate the AICc for the 'pulsR' models
+  res.nig <- rbind(res.nig, as.data.frame(t(c("NIG", NIGfit$lnL, NIGfit$AIC, calc_AICc_vals(NIGfit$lnL, NIGfit$n_params, length(NIGfit$dat)), NA, z)))) # we have to manually calculate the AICc for the 'pulsR' models
+  #res.bmjn <- rbind(res.bmjn, as.data.frame(t(c("BMJN", BMJNfit$lnL, BMJNfit$AIC, calc_AICc_vals(BMJNfit$lnL, BMJNfit$n_params, length(BMJNfit$dat)), NA, z)))) # we have to manually calculate the AICc for the 'pulsR' models
+  #res.bmnig <- rbind(res.bmnig, as.data.frame(t(c("BMNIG", BMNIGfit$lnL, BMNIGfit$AIC, calc_AICc_vals(BMNIGfit$lnL, BMNIGfit$n_params, length(BMNIGfit$dat)), NA, z)))) # we have to manually calculate the AICc for the 'pulsR' models
+  
+  ## Set the column names of the results data frames
+  colnames(res.jn) <- c("model", "lnL", "AIC", "AICc", "timing", "tree.no")
+  colnames(res.nig)  <- c("model", "lnL", "AIC", "AICc", "timing", "tree.no")
+  #colnames(res.bmjn)  <- c("model", "lnL", "AIC", "AICc", "timing", "tree.no")
+  #colnames(res.bmnig)  <- c("model", "lnL", "AIC", "AICc", "timing", "tree.no")
+  
+  levy.results <- NULL
+  levy.results <- rbind(levy.results, res.jn)
+  levy.results <- rbind(levy.results, res.nig)
+  #levy.results <- rbind(levy.results, res.bmjn)
+  #levy.results <- rbind(levy.results, res.bmnig)
+  
+  total.results <- rbind(total.results, levy.results)
+}
+
 ## If you want to drop some models before you determine AICWt [check with 'levels(total.results$model)']
 total.results <- total.results[!(total.results$model=="kappa"),]
 total.results <- total.results[!(total.results$model=="BM"),]
