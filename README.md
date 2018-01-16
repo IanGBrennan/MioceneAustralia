@@ -21,7 +21,7 @@ Otherwise, this repository includes the following (organized under folders of th
 ## Figures:
    + Figure 1. Estimated shifts and biogeographic dispersal patterns through time, highlighting changes in morphological and biogeographic evolution in the Late Miocene.
    + Figure 2. Stacked barplots of comparative model fitting for each radiation, with focus on preference of mode-variable models.
-   + Supplemental Figures 1-7.
+   + Supplemental Figures 1-10.
 ## Outputs:
    + Comparative model fitting output for 100 posterior trees. This includes ALL compared models. (5x)
    + Comparative model fitting output for 100 posterior trees. This is a trimmed set of models (those in Fig.2), with recalculated AICcWt. (5x)  
