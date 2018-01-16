@@ -6,7 +6,7 @@ Otherwise, this repository includes the following (organized under folders of th
   ### Trees:  
    + Maximum clade credibility trees. (5x)  
    + 100 trees from dating analysis posteriors. (5x) 
-   + 100 trees from extiction regime exercises. (3x: Stochastic, Miocene, PlioPleistocene)  
+   + 100 trees from extinction regime exercises. (3x: Stochastic, Miocene, PlioPleistocene)  
   ### Phenotypic and Distributional Traits
    + Body size data (snout-vent length, body length, mass). (5x)
    + Distributional data, in binary format for BioGeoBEARS analysis. (5x)
