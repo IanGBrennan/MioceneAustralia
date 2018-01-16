@@ -1,5 +1,5 @@
 # Miocene Australia
-Associated files and scripts for manuscript on Miocene biome turnover, and phenotypic evolution of Australian vertebrates. This project focuses on shifts in biome dispersal history and body size evolution across five widely distributed Australian vertebrate radiations: marsupial mammals, meliphagoid birds, pygopodoid geckos, sphenomorphine skinks, and agamid lizards. If you're not sure what you need, check the "GitHub Directory..." excel spreadsheet for descriptions of the included files.
+Associated files and scripts for manuscript on Miocene biome turnover, and phenotypic evolution of Australian vertebrates. This project focuses on shifts in biome dispersal history and body size evolution across five widely distributed Australian vertebrate radiations: marsupial mammals, meliphagoid birds, pygopodoid geckos, sphenomorphine skinks, and agamid lizards. If you're not sure what you need, check the "GitHub Directory..." excel spreadsheet for descriptions of the included files. And if you are looking for something that I've forgotten to put up, please email me at ian.brennan.anu.edu.au
 
 Otherwise, this repository includes the following (organized under folders of the same names):  
 ## Data:
