@@ -5,7 +5,8 @@ Otherwise, this repository includes the following (organized under folders of th
 ## Data:
   ### Trees:  
    + Maximum clade credibility trees. (5x)  
-   + 100 trees from dating analysis posteriors. (5x)     
+   + 100 trees from dating analysis posteriors. (5x) 
+   + 100 trees from extiction regime exercises. (3x: Stochastic, Miocene, PlioPleistocene)  
   ### Phenotypic and Distributional Traits
    + Body size data (snout-vent length, body length, mass). (5x)
    + Distributional data, in binary format for BioGeoBEARS analysis. (5x)
@@ -18,6 +19,7 @@ Otherwise, this repository includes the following (organized under folders of th
    + R code which includes the two novel mode-variable evolutionary models (Single-Rate Constraint, Two-Rate Constraint), built into the 'fitContinuous.paleo' function of Slater (2013). 
    + R code which iterates across set of empirical trees, comparatively fitting trait evolution models, saving information on fit and parameter estimates, and summarizes and plots results.
    + R code for simulating (1) trait data to test and plot the reliability of model estimates of shift time and alpha, and (2) the recoverability of novel mode-variable (SRC, TRC) models.  
+   + Simulating Extinction Regimes: R code for simulating extinct taxa onto empirical trees and data, under varied extinction regimes. 
 ## Figures:
    + Figure 1. Estimated shifts and biogeographic dispersal patterns through time, highlighting changes in morphological and biogeographic evolution in the Late Miocene.
    + Figure 2. Stacked barplots of comparative model fitting for each radiation, with focus on preference of mode-variable models.
