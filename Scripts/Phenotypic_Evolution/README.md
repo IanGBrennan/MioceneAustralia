@@ -9,4 +9,4 @@
    R code for simulating trait data to test the reliability of model estimates of the shift time and the alpha parameter. Given input tree(s), you can simulate trait data, then run loops to estimate the parameter of interest, and plot the correspence between simulated and estimated parameter values. This includes a function to plot the linear model outputs (slope, r.squared, p-value) on the figure. 
    
    + _Sim.Fossil.Trees.SOURCE.R_ and _Simulating.Extinct.Trees.Data_PRSB.R_:  
-   R code ('Sim.Fossil.Trees.SOURCE.R' is source code for the 'Simulating.Extinct...R' script) for simulating extinction regimes onto empirical trees, then simulating data onto the trees including extinct taxa, and finally dropping all extinct taxa from the trees and data.
+   R code ('Sim.Fossil.Trees.SOURCE.R' is source code for the 'Simulating.Extinct...R' script) for simulating extinction regimes onto empirical trees, then simulating data onto the trees including extinct taxa, and finally dropping all extinct taxa from the trees and data. If interested, we left the original code for simulating data under the BMOU and BMOUi models in the file _Simulating.Extinct.Trees.Data.LOOP.R_
