@@ -641,11 +641,11 @@ fitContinuousModel_paleo <- function (ds, print = TRUE)
       }
       o <- optim(foo, p = start, lower = lower, upper = upper, method = "L");
       ml.vcv <- exp(o$par[1]) * ((ouMatrix(release.mat[[2]], exp(o$par[2]))) + release.mat[[1]])
-      diag(ml.vcv) <- diag(ml.vcv) + o$par[3]
+      diag(ml.vcv) <- diag(ml.vcv) + o$par[3]^2
       root.state <- phylogMean(ml.vcv, y)
       #root.state <- mean(y)
       results <- list(lnl = -o$value, root.state = root.state, beta = exp(o$par[1]), 
-                      alpha = exp(o$par[2]), MErr = sqrt(o$par[3]));
+                      alpha = exp(o$par[2]), MErr = o$par[3]);
     }
     
     # TwoRateConstraint (BMOUi) model that estimates the measurement error
@@ -671,10 +671,10 @@ fitContinuousModel_paleo <- function (ds, print = TRUE)
       o <- optim(foo, p = start, lower = lower, upper = upper, method = "L");
       ml.ouMatrix <- release.mat[[2]] * exp(o$par[3])
       ml.vcv <- exp(o$par[1]) * ((ouMatrix(ml.ouMatrix, exp(o$par[2]))) + (release.mat[[1]]))
-      diag(ml.vcv) <- diag(ml.vcv) + o$par[4]
+      diag(ml.vcv) <- diag(ml.vcv) + o$par[4]^2
       root.state <- phylogMean(ml.vcv, y)
       results <- list(lnl = -o$value, root.state = root.state, beta = exp(o$par[1]), alpha = exp(o$par[2]), 
-                      post.shift.scalar = exp(o$par[3]), post.shift.sigma = exp(o$par[1])/exp(o$par[3]), ME = sqrt(o$par[4]));
+                      post.shift.scalar = exp(o$par[3]), post.shift.sigma = exp(o$par[1])/exp(o$par[3]), ME = o$par[4]);
     }
     
     # correcting the "radiate.constrain" model (this applies the p-s-scalar, then transforms by alpha)
